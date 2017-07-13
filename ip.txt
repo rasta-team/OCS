@@ -1,0 +1,23 @@
+49.213.16.175               (SGGS - IBNU FACHRIZAL)
+49.213.16.182               (SGGS - RAMA TRIADI)
+49.213.16.184               (SGGS - SATRIA YUSUF ADI PUTRA)
+
+128.199.181.91              (SGDO - IBNU FACHRIZAL)
+128.199.156.54              (SGDO - IRSYAL MAHAPUTRA)
+188.166.211.63              (SGDO - EGIK AL FATIH)
+128.199.170.243             (SGDO - ADI PUTRA TALORE)
+139.59.245.20               (SGDO - FOKUS FOKUS)
+
+103.227.252.187  (id.hostssh.me)
+sg1.s3rv.top
+sg2.s3rv.top 139.59.120.183
+sg3.s3rv.top 128.199.160.185
+sg4.s3rv.top 139.59.126.205
+sg5.s3rv.top 188.166.240.87
+sg6.s3rv.top 128.199.195.132
+jp.s3rv.top 
+it1.s3rv.top
+it2.s3rv.top
+cz.s3rv.top
+
+80.211.197.196
