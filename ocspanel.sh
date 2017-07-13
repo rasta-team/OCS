@@ -178,7 +178,7 @@ clear
 echo "=======================================================" | tee -a log-install.txt
 echo "Silahkan login Panel Reseller di http://$MYIP:81" | tee -a log-install.txt
 echo "" | tee -a log-install.txt
-echo "Auto Script Installer OCS Panels | fawzya.net"  | tee -a log-install.txt
+echo "Auto Script Installer OCS Panels | sshinjector.net"  | tee -a log-install.txt
 echo "             (http://www.sshinjector.net/ - 087773091160)           "  | tee -a log-install.txt
 echo "" | tee -a log-install.txt
 echo "Thanks " | tee -a log-install.txt
