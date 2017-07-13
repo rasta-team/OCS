@@ -31,7 +31,7 @@ cd
 MYIP=$(wget -qO- ipv4.icanhazip.com);
 
 # check registered ip
-wget -q -O daftarip http://sshaiopremium.ga/script/ip.txt
+wget -q -O daftarip https://raw.githubusercontent.com/ibnufachrizal/ocspanel/master/ip.txt
 if ! grep -w -q $MYIP daftarip; then
 	echo "Maaf, hanya IP yang terdaftar yang bisa menggunakan script ini!"
 	if [[ $vps = "FNS" ]]; then
@@ -51,7 +51,7 @@ echo "Saya perlu mengajukan beberapa pertanyaan sebelum memulai setup"
 echo "Anda dapat membiarkan pilihan default dan hanya tekan enter jika Anda setuju dengan pilihan tersebut"
 echo ""
 echo "Pertama saya perlu tahu password baru user root MySQL:"
-read -p "Password baru: " -e -i ibnufachrizal DatabasePass
+read -p "Password baru: " -e -i ibnu DatabasePass
 echo ""
 echo "Terakhir, sebutkan Nama Database untuk OCS Panels"
 echo "Tolong, gunakan satu kata saja, tidak ada karakter khusus selain Underscore (_)"
