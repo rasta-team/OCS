@@ -31,7 +31,7 @@ cd
 MYIP=$(wget -qO- ipv4.icanhazip.com);
 
 # check registered ip
-wget -q -O daftarip https://raw.githubusercontent.com/ibnufachrizal/sshinjector/master/ip.txt
+wget -q -O daftarip https://raw.githubusercontent.com/rasta-team/MyVPS/master/ip.txt
 if ! grep -w -q $MYIP daftarip; then
 	echo "Maaf, hanya IP yang terdaftar yang bisa menggunakan script ini!"
 	if [[ $vps = "FNS" ]]; then
@@ -187,4 +187,4 @@ echo "Log Instalasi --> /root/log-install.txt" | tee -a log-install.txt
 echo "=======================================================" | tee -a log-install.txt
 cd ~/
 
-rm -f /root/ocspanel.sh
+#rm -f /root/ocspanel.sh
