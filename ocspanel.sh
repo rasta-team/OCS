@@ -153,17 +153,17 @@ echo ""
 read -p "Jika anda benar-benar yakin Step diatas sudah dilakukan, silahkan Tekan tombol [Enter] untuk melanjutkan..."
 echo ""
 cd /root
-wget http://www.webmin.com/jcameron-key.asc
-apt-key add jcameron-key.asc
-sed -i 's/ssl=1/ssl=0/g' /etc/webmin/miniserv.conf
-service webmin restart
+#wget http://www.webmin.com/jcameron-key.asc
+#apt-key add jcameron-key.asc
+#sed -i 's/ssl=1/ssl=0/g' /etc/webmin/miniserv.conf
+#service webmin restart
 
-rm -f /root/jcameron-key.asc
+#rm -f /root/jcameron-key.asc
 
 apt-get -y --force-yes -f install libxml-parser-perl
 
 
-rm -R /home/fns/public_html/installation
+#rm -R /home/fns/public_html/installation
 
 cd
 rm -f /root/.bash_history && history -c
